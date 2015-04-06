@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8344A4E11AD2636900F89C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344A4E01AD2636900F89C2F /* AppDelegate.swift */; };
+		8344A4E31AD2636900F89C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344A4E21AD2636900F89C2F /* ViewController.swift */; };
+		8344A4E51AD2636900F89C2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8344A4E41AD2636900F89C2F /* Images.xcassets */; };
+		8344A4E81AD2636900F89C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8344A4E61AD2636900F89C2F /* Main.storyboard */; };
+		8344A4F41AD2636A00F89C2F /* LRU_Paged_Virtual_MemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344A4F31AD2636A00F89C2F /* LRU_Paged_Virtual_MemoryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8344A4EE1AD2636A00F89C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8344A4D31AD2636900F89C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8344A4DA1AD2636900F89C2F;
+			remoteInfo = "LRU Paged Virtual Memory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8344A4DB1AD2636900F89C2F /* LRU Paged Virtual Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LRU Paged Virtual Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8344A4DF1AD2636900F89C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8344A4E01AD2636900F89C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8344A4E21AD2636900F89C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8344A4E41AD2636900F89C2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8344A4E71AD2636900F89C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8344A4ED1AD2636A00F89C2F /* LRU Paged Virtual MemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LRU Paged Virtual MemoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8344A4F21AD2636A00F89C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8344A4F31AD2636A00F89C2F /* LRU_Paged_Virtual_MemoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU_Paged_Virtual_MemoryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8344A4D81AD2636900F89C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8344A4EA1AD2636A00F89C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8344A4D21AD2636900F89C2F = {
+			isa = PBXGroup;
+			children = (
+				8344A4DD1AD2636900F89C2F /* LRU Paged Virtual Memory */,
+				8344A4F01AD2636A00F89C2F /* LRU Paged Virtual MemoryTests */,
+				8344A4DC1AD2636900F89C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8344A4DC1AD2636900F89C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8344A4DB1AD2636900F89C2F /* LRU Paged Virtual Memory.app */,
+				8344A4ED1AD2636A00F89C2F /* LRU Paged Virtual MemoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8344A4DD1AD2636900F89C2F /* LRU Paged Virtual Memory */ = {
+			isa = PBXGroup;
+			children = (
+				8344A4E01AD2636900F89C2F /* AppDelegate.swift */,
+				8344A4E21AD2636900F89C2F /* ViewController.swift */,
+				8344A4E41AD2636900F89C2F /* Images.xcassets */,
+				8344A4E61AD2636900F89C2F /* Main.storyboard */,
+				8344A4DE1AD2636900F89C2F /* Supporting Files */,
+			);
+			path = "LRU Paged Virtual Memory";
+			sourceTree = "<group>";
+		};
+		8344A4DE1AD2636900F89C2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8344A4DF1AD2636900F89C2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8344A4F01AD2636A00F89C2F /* LRU Paged Virtual MemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8344A4F31AD2636A00F89C2F /* LRU_Paged_Virtual_MemoryTests.swift */,
+				8344A4F11AD2636A00F89C2F /* Supporting Files */,
+			);
+			path = "LRU Paged Virtual MemoryTests";
+			sourceTree = "<group>";
+		};
+		8344A4F11AD2636A00F89C2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8344A4F21AD2636A00F89C2F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8344A4DA1AD2636900F89C2F /* LRU Paged Virtual Memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8344A4F71AD2636A00F89C2F /* Build configuration list for PBXNativeTarget "LRU Paged Virtual Memory" */;
+			buildPhases = (
+				8344A4D71AD2636900F89C2F /* Sources */,
+				8344A4D81AD2636900F89C2F /* Frameworks */,
+				8344A4D91AD2636900F89C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LRU Paged Virtual Memory";
+			productName = "LRU Paged Virtual Memory";
+			productReference = 8344A4DB1AD2636900F89C2F /* LRU Paged Virtual Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8344A4EC1AD2636A00F89C2F /* LRU Paged Virtual MemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8344A4FA1AD2636A00F89C2F /* Build configuration list for PBXNativeTarget "LRU Paged Virtual MemoryTests" */;
+			buildPhases = (
+				8344A4E91AD2636A00F89C2F /* Sources */,
+				8344A4EA1AD2636A00F89C2F /* Frameworks */,
+				8344A4EB1AD2636A00F89C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8344A4EF1AD2636A00F89C2F /* PBXTargetDependency */,
+			);
+			name = "LRU Paged Virtual MemoryTests";
+			productName = "LRU Paged Virtual MemoryTests";
+			productReference = 8344A4ED1AD2636A00F89C2F /* LRU Paged Virtual MemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8344A4D31AD2636900F89C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Chris Mahoney";
+				TargetAttributes = {
+					8344A4DA1AD2636900F89C2F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8344A4EC1AD2636A00F89C2F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8344A4DA1AD2636900F89C2F;
+					};
+				};
+			};
+			buildConfigurationList = 8344A4D61AD2636900F89C2F /* Build configuration list for PBXProject "LRU Paged Virtual Memory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8344A4D21AD2636900F89C2F;
+			productRefGroup = 8344A4DC1AD2636900F89C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8344A4DA1AD2636900F89C2F /* LRU Paged Virtual Memory */,
+				8344A4EC1AD2636A00F89C2F /* LRU Paged Virtual MemoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8344A4D91AD2636900F89C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8344A4E51AD2636900F89C2F /* Images.xcassets in Resources */,
+				8344A4E81AD2636900F89C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8344A4EB1AD2636A00F89C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8344A4D71AD2636900F89C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8344A4E31AD2636900F89C2F /* ViewController.swift in Sources */,
+				8344A4E11AD2636900F89C2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8344A4E91AD2636A00F89C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8344A4F41AD2636A00F89C2F /* LRU_Paged_Virtual_MemoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8344A4EF1AD2636A00F89C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8344A4DA1AD2636900F89C2F /* LRU Paged Virtual Memory */;
+			targetProxy = 8344A4EE1AD2636A00F89C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8344A4E61AD2636900F89C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8344A4E71AD2636900F89C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8344A4F51AD2636A00F89C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8344A4F61AD2636A00F89C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8344A4F81AD2636A00F89C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LRU Paged Virtual Memory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8344A4F91AD2636A00F89C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "LRU Paged Virtual Memory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8344A4FB1AD2636A00F89C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LRU Paged Virtual MemoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRU Paged Virtual Memory.app/Contents/MacOS/LRU Paged Virtual Memory";
+			};
+			name = Debug;
+		};
+		8344A4FC1AD2636A00F89C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LRU Paged Virtual MemoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRU Paged Virtual Memory.app/Contents/MacOS/LRU Paged Virtual Memory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8344A4D61AD2636900F89C2F /* Build configuration list for PBXProject "LRU Paged Virtual Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8344A4F51AD2636A00F89C2F /* Debug */,
+				8344A4F61AD2636A00F89C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8344A4F71AD2636A00F89C2F /* Build configuration list for PBXNativeTarget "LRU Paged Virtual Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8344A4F81AD2636A00F89C2F /* Debug */,
+				8344A4F91AD2636A00F89C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8344A4FA1AD2636A00F89C2F /* Build configuration list for PBXNativeTarget "LRU Paged Virtual MemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8344A4FB1AD2636A00F89C2F /* Debug */,
+				8344A4FC1AD2636A00F89C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8344A4D31AD2636900F89C2F /* Project object */;
+}
