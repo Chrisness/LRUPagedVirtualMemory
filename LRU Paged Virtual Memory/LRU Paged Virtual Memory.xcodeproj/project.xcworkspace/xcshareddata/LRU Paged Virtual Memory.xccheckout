@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF45F0EC-DCF8-4BA1-868E-207589301DE0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>668D609E2D851828B2889D8D87519F061C67170A</key>
+		<string>https://github.com/Chrisness/LRUPagedVirtualMemory.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LRU Paged Virtual Memory/LRU Paged Virtual Memory.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>668D609E2D851828B2889D8D87519F061C67170A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Chrisness/LRUPagedVirtualMemory.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>668D609E2D851828B2889D8D87519F061C67170A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>668D609E2D851828B2889D8D87519F061C67170A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LRUPagedVirtualMemory</string>
+		</dict>
+	</array>
+</dict>
+</plist>
